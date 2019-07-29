@@ -12,14 +12,12 @@ td {
 	width: 11vh;
    	height: 11vh;
     border: 3px solid black;
+
 }
 
-
-
-/*
- * 
- *
- *tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
- *    background: white;
- *} 
- */
+.circle {
+	width: 7vh;
+	height: 7vh;
+	border-radius: 50%;
+	background: black;
+}
