@@ -16,16 +16,17 @@ table.rows[2].cells[0].style.backgroundColor = 'green';
 table.rows[3].cells[5].style.backgroundColor = 'green';	
 
 for (let i = 0; i < 4; i++) {
-		table.rows[i].cells[i].style.backgroundColor = 'orange';
-		table.rows[i].cells[7-i].style.backgroundColor = '#663300'; //brown	
-		table.rows[i].cells[i+4].style.backgroundColor = 'yellow';	
-		table.rows[i].cells[3-i].style.backgroundColor = 'pink';
+	table.rows[i].cells[i].style.backgroundColor = 'orange';
+	table.rows[i].cells[7-i].style.backgroundColor = '#663300'; //brown	
+	table.rows[i].cells[i+4].style.backgroundColor = 'yellow';	
+	table.rows[i].cells[3-i].style.backgroundColor = 'pink';
 }
 // first half finished
 // mirroring the second half
 for (let i = 4; i < 8; i++) {
 	for (let j = 0 ; j < 8; j++) {
-		table.rows[i].cells[j].style.backgroundColor = table.rows[7-i].cells[7-j].style.backgroundColor;
+		table.rows[i].cells[j].style.backgroundColor =
+			table.rows[7-i].cells[7-j].style.backgroundColor;
 }
 }
 
