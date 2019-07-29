@@ -1,4 +1,4 @@
-body {
+body{ 
 	background:grey; 
 	padding: 20px;
 }
@@ -6,12 +6,21 @@ body {
 table {
 	margin: 0 auto;
 	border-collapse: collapse;
-	background: black;
+	background:blue; 
 }
 td {
-    width: 40px; height: 40px;
+	width: 40px; height: 40px;
+	/* border-radius: 100%; */
+	 /*background-color: grey; */
+    border: 1px solid green;
 }
 
-tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
-	background: white;
-}
+
+
+/*
+ * 
+ *
+ *tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
+ *    background: white;
+ *} 
+ */
