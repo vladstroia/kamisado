@@ -16,8 +16,11 @@ td {
 }
 
 .circle {
-	width: 7vh;
-	height: 7vh;
+	width: 8vh;
+	height: 8vh;
 	border-radius: 50%;
 	background: black;
+	margin: auto;
+    border:1vh solid white;    
+
 }
